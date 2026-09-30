@@ -1,0 +1,18 @@
+{
+  "name": "jargal-ulzii",
+  "version": "1.0.0",
+  "description": "Жаргал-Өлзий Өрхийн эрүүл мэндийн төвийн вэб сайт (сервер + өгөгдлийн сан)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
